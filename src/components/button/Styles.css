@@ -1,0 +1,21 @@
+.button-container {
+    margin-top: 10px;
+}
+
+.button-item {
+    color: white;
+    background-color: #4ba284;
+    border: #4ba284;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 250ms linear;
+    cursor: pointer;
+}
+
+.button-item:hover {
+    background-color: #000;
+    transition: background-color 250ms linear;
+}

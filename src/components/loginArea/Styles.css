@@ -1,0 +1,45 @@
+.input{
+    border: none;
+    border-bottom: 2px solid #4ba284;
+    width: 80%;
+    height: 35px;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.input-button-container {
+    margin-top: 10px;
+}
+
+.input-button {
+    color: white;
+    background-color: #4ba284;
+    border: #4ba284;
+    border-radius: 25px;
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+    cursor: pointer;
+}
+
+.input-button:hover {
+    background-color: #000;
+    transition: background-color 250ms linear;
+}
+
+.create-container {
+    font-size: 20px;
+}
+
+.create-link {
+    text-decoration: none;
+}
+
+.error {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #DB4A25;
+    font-weight: 500;
+}
